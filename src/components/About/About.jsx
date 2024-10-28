@@ -14,7 +14,7 @@ function About() {
           <img
             src="misc/profile.jpg"
             alt=""
-            className="rounded-full border-y-8 border-custPrimary  md:w-auto md:h-auto hover:scale-105 duration-500 transition-all"
+            className="rounded-full border-y-8 border-sky-500  md:w-auto md:h-auto hover:scale-105 duration-500 transition-all"
           />
         </div>
         <div className="w-full md:w-1/2 p-5 text-lg md:text-2xl">
@@ -37,9 +37,9 @@ function About() {
           </p>
           <br />
           <a
-            href="/Resume.pdf"
+            href="/Resume-Ashwin-Kumar.pdf"
             download
-            className="border border-custPrimary text-custPrimary px-4 py-2 md:px-5 md:py-3 rounded-full text-lg md:text-xl hover:bg-custPrimary hover:text-custDark1 hover:scale-110 transition-all duration-500"
+            className="border border-sky-500 text-sky-500 px-4 py-2 md:px-5 md:py-3 rounded-full text-lg md:text-xl hover:bg-sky-500 hover:text-custDark1 hover:scale-110 transition-all duration-500"
           >
             Download Resume
           </a>

@@ -28,7 +28,7 @@ function Home() {
           <span className="block text-4xl md:text-6xl mt-2">Ashwin Kumar,</span>
           <span className="block text-2xl md:text-4xl mt-2">
             a{" "}
-            <span className="font-bold text-3xl md:text-5xl text-custPrimary">
+            <span className="font-bold text-3xl md:text-5xl text-sky-500">
               {typewrite}
               <Cursor cursorColor="white" cursorStyle="_" />
             </span>
@@ -42,7 +42,7 @@ function Home() {
         <HashLink smooth to="#skills">
           <FontAwesomeIcon
             icon={faAnglesDown}
-            className="text-4xl md:text-5xl text-custPrimary animate-bounce cursor-pointer"
+            className="text-4xl md:text-5xl text-sky-500 animate-bounce cursor-pointer"
           />
         </HashLink>
       </div>

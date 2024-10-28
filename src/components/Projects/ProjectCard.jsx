@@ -11,14 +11,14 @@ function ProjectCard({ title, image, desc, link, code }) {
         <a
           href={link}
           target="_blank"
-          className=" border border-custPrimary px-3 py-2 text-custPrimary rounded-full hover:bg-custPrimary hover:text-custDark1 transition-all duration-500"
+          className=" border border-sky-500 px-3 py-2 text-sky-500 rounded-full hover:bg-sky-500 hover:text-custDark1 transition-all duration-500"
         >
           View Site
         </a>
         <a
           href={code}
           target="_blank"
-          className=" border border-custPrimary px-3 py-2 text-custPrimary rounded-full hover:bg-custPrimary hover:text-custDark1 transition-all duration-500"
+          className=" border border-sky-500 px-3 py-2 text-sky-500 rounded-full hover:bg-sky-500 hover:text-custDark1 transition-all duration-500"
         >
           Source Code
         </a>

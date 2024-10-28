@@ -13,7 +13,7 @@ function Projects() {
         {projects &&
           projects.map((item, index) => (
             <ProjectCard
-              key={index} // Add a unique key for each ProjectCard
+              key={index}
               title={item.title}
               image={item.image}
               desc={item.desc}

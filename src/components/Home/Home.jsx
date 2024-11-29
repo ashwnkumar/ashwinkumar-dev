@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from "react-router-hash-link";
+//test comment
 
 function Home() {
   const [typewrite] = useTypewriter({
